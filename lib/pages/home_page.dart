@@ -1,3 +1,4 @@
+import 'package:airbnb/widgets/header.dart';
 import 'package:flutter/material.dart';
 import 'package:airbnb/widgets/hero_banner.dart';
 
@@ -17,6 +18,7 @@ class _HomePageState extends State<HomePage> {
           CustomScrollView(
             slivers: [
               HeroBanner(),
+              Header(text: "Explore Nearby"),
             ],
           ),
         ],
